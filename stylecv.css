@@ -1,6 +1,7 @@
 
-*{
+body{
     margin:0;
+    padding: 0;
     font-family: 'PT Sans', sans-serif;
 }
 
@@ -98,25 +99,25 @@ justify-content: center;
     align-items: flex-start;
     margin-top: 63px;
     font-size: 20px;
-    gap: 450px;  
-}
-.socialotro {
-    height: 400px;
-    width: 400px;
-    margin-right: 100px;
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-  
-}
-.social {
-    width: 40px;
-    height: 40px;
-    margin: 10px 38px 25px 38px;
-}
-.links {
-    width: auto;
-    height: auto;
-    position: relative;
-    gap: 50px;
-}
+ }
+
+ a {
+
+    color:#BB8FCE ;
+ }
+
+
+.dark-mode {
+    background-color: black;
+    color: white;
+    background-image:black;
+    background-blend-mode: soft-light;
+    opacity: 0.5;
+    
+
+   
+    }
+    button {
+        position:absolute;
+        border-radius: 0.5;       
+    }
